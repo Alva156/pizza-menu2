@@ -1,18 +1,31 @@
-function Product(props) {
+function Product({ gamesObj }) {
+  // const hour = new Date().getHours();
+  // const openHour = 12;
+  // const closeHour = 22;
+  // const isOpen = hour >= openHour && hour <= closeHour;
+
+  // console.log(isOpen);
+
+  // if(isOpen){}
+
+  // if ({gamesData.isSoldout = false}) {
+  //   return null;
+  // }
+
   return (
     <div class="col-md-3">
       <div className="product-card">
         <div className="product-card-img">
           <label className="stock bg-success">In Stock</label>
-          <img src={props.gamesObj.pictures} alt="Red MI Note 8" />
+          <img src={gamesObj.pictures} alt="Red MI Note 8" />
         </div>
         <div className="product-card-body">
           <p className="product-brand">Console</p>
           <h5 className="product-name">
-            <a href=""> {props.gamesObj.title} </a>
+            <a href=""> {gamesObj.title} </a>
           </h5>
           <div>
-            <span className="selling-price">{props.gamesObj.price}</span>
+            <span className="selling-price">{gamesObj.price}</span>
             <span className="original-price">$300</span>
           </div>
           <div className="mt-2">

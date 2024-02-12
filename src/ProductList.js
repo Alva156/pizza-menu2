@@ -3,6 +3,7 @@ import gamesData from "./gamesData.js";
 
 function ProductList() {
   const games = gamesData;
+
   return (
     <div class="py-3 py-md-5 bg-light">
       <div class="container">

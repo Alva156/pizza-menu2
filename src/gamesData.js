@@ -17,7 +17,8 @@ const gamesData = [
   {
     title: "Tekken 8",
     name: "",
-    quantity: 5,
+    quantity: 0,
+    // isSoldout: true,
     price: 59.99,
     pictures:
       "https://tse4.mm.bing.net/th?id=OIP.GpdVVjb2ljAwOCDE_uwmPwHaHa&pid=Api&P=0&h=180",

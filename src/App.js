@@ -25,9 +25,18 @@ import "./../node_modules/bootstrap/dist/css/bootstrap.min.css";
 // }
 
 import ProductList from "./ProductList";
+import LoginForm from "./LogInForm";
+import AdminPanel from "./AdminPanel";
+import { Button } from "bootstrap";
 
 export default function App() {
   return <ProductList />;
+  // let isLoggedIn = true;
+  // return (
+  //   <div>
+  //     (isLoggedIn ? <AdminPanel /> : <LoginForm />)
+  //   </div>
+  // );
 }
 
 // fdfsdfd

@@ -2,7 +2,7 @@ const gamesData = [
   {
     title: "The Legend of Zelda: Breath of the Wild",
     name: "Breath of the Wild",
-    quantity: 5,
+    quantity: 0,
     price: 70.99,
     pictures: "./zelda.png",
   },

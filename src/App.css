@@ -62,4 +62,10 @@
   font-size: 12px;
   margin-top: 10px;
 }
+
+.sold-out {
+  filter: grayscale();
+  opacity: 0.8;
+  color: #888;
+}
 /* Product Card End */

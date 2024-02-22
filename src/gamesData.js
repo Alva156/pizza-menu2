@@ -8,24 +8,38 @@ const gamesData = [
   },
   {
     title: "Grand Theft Auto 5",
-    name: "",
+    name: "GTA 5", // Corrected name field
     quantity: 5,
     price: 59.99,
     pictures:
       "https://2.bp.blogspot.com/-2g5pGSS5O_U/UMtykudA6qI/AAAAAAAAABs/n8fKmtS3RoY/s1600/Sem+T%C3%ADtulo.png",
   },
   {
+    title: "Grand Theft Auto 6",
+    name: "GTA 6", // Corrected name field
+    quantity: 5,
+    price: 59.99,
+    pictures:
+      "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/intermediary/f/10dcc543-7e30-4a6f-8fc0-a00134700b8c/d950ij0-aa860152-fbf7-4dcd-89cd-c71cb12e2c8a.jpg",
+  },
+  {
+    title: "Grand Theft Auto 4",
+    name: "GTA 4", // Corrected name field
+    quantity: 5,
+    price: 59.99,
+    pictures: "https://modernborefare.files.wordpress.com/2013/04/gta4.jpg",
+  },
+  {
     title: "Tekken 8",
-    name: "",
+    name: "Tekken 8",
     quantity: 0,
-    // isSoldout: true,
     price: 59.99,
     pictures:
       "https://tse4.mm.bing.net/th?id=OIP.GpdVVjb2ljAwOCDE_uwmPwHaHa&pid=Api&P=0&h=180",
   },
   {
     title: "NBA 2K24",
-    name: "",
+    name: "NBA 2K24",
     quantity: 5,
     price: 39.99,
     pictures:
@@ -33,7 +47,7 @@ const gamesData = [
   },
   {
     title: "Red Dead Redemption 2",
-    name: "",
+    name: "Red Dead Redemption 2",
     quantity: 5,
     price: 79.99,
     pictures:
@@ -41,7 +55,7 @@ const gamesData = [
   },
   {
     title: "EA SPORTS 24",
-    name: "",
+    name: "EA SPORTS 24",
     quantity: 5,
     price: 39.99,
     pictures:
@@ -49,7 +63,7 @@ const gamesData = [
   },
   {
     title: "Minecraft",
-    name: "",
+    name: "Minecraft",
     quantity: 5,
     price: 29.99,
     pictures:
@@ -57,7 +71,7 @@ const gamesData = [
   },
   {
     title: "Batman Arkham Knight",
-    name: "",
+    name: "Batman Arkham Knight",
     quantity: 5,
     price: 29.99,
     pictures:

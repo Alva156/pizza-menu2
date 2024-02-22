@@ -28,8 +28,34 @@ import ProductList from "./ProductList";
 import LoginForm from "./LogInForm";
 import AdminPanel from "./AdminPanel";
 import { Button } from "bootstrap";
+import { useState } from "react";
 
 export default function App() {
+  // const fruits = ["Mango", "Banana", "Melon", "Papaya", "Apple"];
+  // const [Count, setCount] = useState(0);
+  // // function handleButton() {
+  // //   setCount(Count + 1);
+  // // }
+
+  // function handleNext() {
+  //   if (Count < 4) {
+  //     setCount(Count + 1);
+  //   }
+  // }
+  // function handlePrevious() {
+  //   if (Count > 1) {
+  //     setCount(Count - 1);
+  //   }
+  // }
+  // return (
+  //   <div>
+  //     <h1>{fruits[Count]}</h1>
+  //     <h1>count: {Count} </h1>
+  //     <button onClick={handleNext}>Next</button>
+  //     <button onClick={handlePrevious}>Previous</button>
+  //   </div>
+  // );
+
   return <ProductList />;
   // let isLoggedIn = true;
   // return (

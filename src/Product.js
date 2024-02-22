@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 function Product({ gamesObj }) {
   // const hour = new Date().getHours();
   // const openHour = 12;
@@ -9,6 +11,7 @@ function Product({ gamesObj }) {
   //   return null;
   // }
   // if (gamesObj.quantity === 0) return null;
+  const [isFav, setIsFav] = useState(false);
   return (
     <div class="col-md-3">
       <div className="product-card">
@@ -34,13 +37,21 @@ function Product({ gamesObj }) {
             <span className="original-price">$300</span>
           </div>
           <div className="mt-2">
-            <a href="" className="btn btn1">
+            {/* <a href="" className="btn btn1">
               Add To Cart
-            </a>
-            <a href="" className="btn btn1">
+            </a> */}
+            <button className="btn btn1">Add to Cart</button>
+            <button classname="btn btn1" onClick={() => setIsFav(!isFav)}>
+              {isFav ? (
+                <i className="fa fa-times"></i>
+              ) : (
+                <i className="fa fa-heart"></i>
+              )}
+            </button>
+            {/* <a href="" className="btn btn1">
               {" "}
               <i className="fa fa-heart"></i>{" "}
-            </a>
+            </a> */}
             <a href="" className="btn btn1">
               {" "}
               View{" "}
